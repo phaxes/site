@@ -1,0 +1,67 @@
+<!--Grid column-->
+<div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
+  <!--Card-->
+  <div class="card mb-4">
+    <!--Card header-->
+    <div class="card-header"><?php echo strtoupper($this->card_header); ?></div>
+    <!--Card image-->
+    <img class="card-img-top img-fluid" data-src="" src="<?php /*echo $this->card_image; */?>" alt=""/>
+    <div class="embed-responsive embed-responsive-4by3"><!-- Reserve Key: AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc-->
+      <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=<?php echo $this->map_address; ?>" style="border:0" ></iframe>
+    </div>
+    <!--/Card image-->
+      <!--Card body-->
+      <div class="card-body" style="height: 25rem">
+        <!--Card title default (void)-->
+        <h4 class="card-title"><?php echo strtoupper($this->card_title); ?></h4>
+          <p class="card-text item-header">
+            <small class="text-muted">
+              <!--Card table-->
+              <div class="table-responsive">
+                <table class="card-table table">
+                  <!--Card content-->
+                  <thead>
+                  </thead>
+                  <tbody class="tbody-center">
+                    <tr class="table-primary">
+                      <th scope="row"><?php echo $this->cell_1_1; ?></th>
+                      <th><?php echo $this->cell_1_2; ?></th>
+                    </tr>
+                    <tr class="table-secondary">
+                      <th scope="row"><?php echo $this->cell_2_1; ?></th>
+                      <td><?php echo $this->cell_2_2; ?></td>
+                    </tr>
+                    <tr class="table-info">
+                      <th scope="row"><?php echo $this->cell_3_1 ?></th>
+                      <td><?php echo $this->cell_3_2 ?></td>
+                    </tr>
+                    <tr class="table-light">
+                      <th scope="row"><?php echo $this->cell_4_1 ?></th>
+                      <td><?php echo $this->cell_4_2 ?></td>
+                    </tr>
+                    <tr class="table-light">
+                      <th scope="row"><?php echo $this->cell_5_1 ?></th>
+                      <td><?php echo $this->cell_5_2 ?></td>
+                    </tr>
+                    <tr class="table-light">
+                      <th scope="row"><?php echo $this->cell_6_1 ?></th>
+                      <td><?php echo $this->cell_6_2 ?></td>
+                    </tr>
+                    <tr class="table-light">
+                      <th scope="row"><?php echo $this->cell_7_1 ?></th>
+                      <td><?php echo $this->cell_7_2 ?></td>
+                    </tr>
+                  </tbody>
+                  <!--/.Card content-->
+                </table>
+              </div>
+            </small>
+          </p>
+      </div>
+    <!--Card footer-->
+    <div class="card-footer">
+      <a href="<?php echo $this->link_element; ?>" class="btn btn-secondary">Route</a>
+    </div>
+  </div>
+  <!--/.Card-->
+</div>

@@ -1,0 +1,1 @@
+document.getElementById("card_deck_start").innerHTML="Stimmen Sie der lokalen Standortermittlung zu um Ihnen die Tankstellen in 5 KM Umkreis anzuzeigen. Alternativ können Sie auch manuell Ort und Umkreis eingeben. ";

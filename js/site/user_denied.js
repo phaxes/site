@@ -1,0 +1,1 @@
+document.getElementById("card_deck_start").innerHTML="Wählen Sie Ort und Umkreis. Viel Spaß!";

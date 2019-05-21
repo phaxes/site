@@ -1,0 +1,1 @@
+document.getElementById("card_deck_start").innerHTML="Stimmen Sie der GPS-Erkennung zu (Standort) oder wählen Sie Ort und Umkreis um Benzinpreise anzuzeigen. Viel Spaß!";

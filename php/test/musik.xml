@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<musik>
+
+  <cd>
+  
+    <titel>State of Confusion</titel>
+    
+    <band>Kinks</band>
+    
+    <laenge>41:29</laenge>
+    
+    <preis>12,80 DM</preis>
+  
+  </cd>
+  
+  <cd>
+  
+    <titel>Strangers in the Night</titel>
+    
+    <band>UFO</band>
+    
+    <laenge>109:26</laenge>
+    
+    <preis>29,90 DM</preis>
+  
+  </cd>
+
+</musik>
